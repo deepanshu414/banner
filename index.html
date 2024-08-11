@@ -4,58 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banner</title>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            align-self: center;
-            background-color: black;
-        }
-        .video-container {
-            position: relative;
-            width: 640px;
-            height: 360px;
-            margin-top: 100px;
-        }
-        #myVideo{
-            border-radius: 5%;
-            box-shadow: 1px 1px 20px black;
-        }
-        .text-overlay {
-            position: absolute;
-            top: 80%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .text-overlay img {
-            width: 70px; 
-            height: 70px;
-            border-radius: 50%;
-            margin-right: 10px;
-        }
-        .text-overlay p {
-            margin: 0; 
-            font: bolder;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
     <div class="video-container">
         <video id="myVideo" width="640" height="360" autoplay muted loop>
-            <source src="image/3508353683-preview.mp4" type="video/mp4">
-            <!-- <source src="image/1107450239-preview.mp4" type="video/mp4"> -->
+            <source src="assets/video/3508353683-preview.mp4" type="video/mp4">
         </video>
-        <!-- <img  alt="coding" width="100%"  style="border-radius: 4% box-shadow: 0 4px 8px rgba(0,0,0,0.2);" src="https://media.licdn.com/dms/image/D4D12AQFado16iaKgvA/article-cover_image-shrink_720_1280/0/1691644269008?e=2147483647&v=beta&t=PCOwKv8J9Bp4Gt_Qet0gvQj9q4YPm2rWrmOs4pJ1gwo"> -->
         <div class="text-overlay">
-            <img src="image/IMG_20230825_215634_152.jpg" alt="Image">
+            <img src="assets/image/IMG_20230825_215634_152.jpg" alt="Image">
             <p>&nbsp;Deepanshu Antil</p>
         </div>
     </div>
