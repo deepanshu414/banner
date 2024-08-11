@@ -13,32 +13,36 @@ Create eye-catching banners by combining video backgrounds with overlaid images 
 - Easy customization of video and image sources
 
 ## 📁 Project Structure
-
+```
 banner/
 │
 ├── index.html
-├── styles.css
-├── script.js
 ├── assets/
-│   ├── videos/
-│   │   └── background.mp4
-│   └── images/
-│       └── overlay.png
+|   ├── css/
+│   │   └── style.css
+│   ├── video/
+│   │   └── 3508353683-preview.mp4
+│   └── image/
+│       └── IMG_20230825_215634_152.jpg
 └── README.md
-
+```
 ## 🛠️ Usage
 
 1. Clone the repository:
 ```sh
 git clone https://github.com/deepanshu414/banner.git
 ```
-2. Replace `background.mp4` in the `assets/videos/` directory with your desired video.
+2.Navigate to the project directory:
+  ```sh
+    cd banner
+  ```
+3.  `3508353683-preview.mp4` in the `assets/video/` directory with your desired video.
 
-3. Replace `overlay.png` in the `assets/images/` directory with your overlay image.
+4. `IMG_20230825_215634_152.jpg` in the `assets/image/` directory with your overlay image.
 
-4. Adjust the HTML, CSSas needed to customize your banner.
+5. Adjust the HTML, CSS as needed to customize your banner.
 
-5. Open `index.html` in a web browser to view your banner.
+6. Open `index.html` in a web browser to view your banner.
 
 ## 📝 Code Snippet
 
@@ -47,9 +51,9 @@ Here's a basic example of the HTML structure:
 ```html
 <div class="banner-container">
 <video autoplay loop muted>
- <source src="assets/videos/background.mp4" type="video/mp4">
+ <source src="assets/video/3508353683-preview.mp4" type="video/mp4">
 </video>
-<img src="assets/images/overlay.png" alt="Overlay Image" class="overlay-image">
+<img src="assets/image/IMG_20230825_215634_152.jpg" alt="Overlay Image" class="overlay-image">
 </div>
 ```
 ## 🎨 Customization
@@ -63,8 +67,9 @@ Adjust the CSS in `styles.css` to modify:
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 If you have any questions or suggestions, please open an issue or contact the repository owner.
+
 Happy banner creating! 🎉
