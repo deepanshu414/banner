@@ -36,9 +36,9 @@ git clone https://github.com/deepanshu414/banner.git
   ```sh
     cd banner
   ```
-3.  `3508353683-preview.mp4` in the `assets/video/` directory with your desired video.
+3. Replace `3508353683-preview.mp4` in the `assets/video/` directory with your desired video.
 
-4. `IMG_20230825_215634_152.jpg` in the `assets/image/` directory with your overlay image.
+4. Replace `IMG_20230825_215634_152.jpg` in the `assets/image/` directory with your overlay image.
 
 5. Adjust the HTML, CSS as needed to customize your banner.
 
