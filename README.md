@@ -5,6 +5,16 @@
 
 Create eye-catching banners by combining video backgrounds with overlaid images using HTML, CSS.
 
+## Table of Contents
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Usage](#%EF%B8%8F-usage)
+- [Code Snippet](#-code-snippet)
+- [Customization](#-customization)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
+
 ## 🚀 Features
 
 - Seamless integration of MP4 video backgrounds
