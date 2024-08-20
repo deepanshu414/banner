@@ -7,7 +7,7 @@ Create eye-catching banners by combining video backgrounds with overlaid images 
 
 ## Table of Contents
 - [Features](#-features)
-- [Project Structure](#-project-structure)
+- [Project Structure](#--project-structure)
 - [Usage](#%EF%B8%8F-usage)
 - [Code Snippet](#-code-snippet)
 - [Customization](#-customization)
@@ -22,7 +22,11 @@ Create eye-catching banners by combining video backgrounds with overlaid images 
 - Responsive design for various screen sizes
 - Easy customization of video and image sources
 
-## 📁 Project Structure
+<details>
+   <summary>
+      <h2> 📁 Project Structure</h2>
+   </summary>
+  
 ```
 banner/
 │
@@ -36,6 +40,8 @@ banner/
 │       └── IMG_20230825_215634_152.jpg
 └── README.md
 ```
+</details>
+  
 ## 🛠️ Usage
 
 1. Clone the repository:
