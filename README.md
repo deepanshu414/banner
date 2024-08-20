@@ -44,7 +44,7 @@ git clone https://github.com/deepanshu414/banner.git
 ```
 2.Navigate to the project directory:
   ```sh
-    cd banner
+cd banner
   ```
 3. Replace `3508353683-preview.mp4` in the `assets/video/` directory with your desired video.
 
